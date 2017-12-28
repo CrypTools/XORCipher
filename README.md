@@ -1,0 +1,2 @@
+# XORCipher
+XORCipher algorithm.
