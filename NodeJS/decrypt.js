@@ -1,6 +1,6 @@
 /**********************************
 
-Use: "IwAVBwpZPAoLBwFY".encrypt("key")
+Use: "IwAVBwpZPAoLBwFY".decrypt("key")
 => 'Hello World!'
 
 **********************************/

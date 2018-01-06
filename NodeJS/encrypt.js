@@ -7,10 +7,10 @@ Use: "Hello World!".encrypt("key")
 String.prototype.encrypt = function(key) {
 
     function xorStrings(key, input) {
-        var output = '';
-        for (var i = 0; i < input.length; i++) {
-            var c = input.charCodeAt(i);
-            var k = key.charCodeAt(i % key.length);
+        let output = '';
+        for (let i = 0; i < input.length; i++) {
+            const c = input.charCodeAt(i);
+            const k = key.charCodeAt(i % key.length);
             output += String.fromCharCode(c ^ k);
         }
         return output;
