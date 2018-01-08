@@ -19,3 +19,4 @@ String.prototype.decrypt = function(key) {
     const data = new Buffer(this, 'base64').toString('ascii')
     return xorStrings(key, data);
 };
+module.exports = (text, key) => text.decrypt(key)

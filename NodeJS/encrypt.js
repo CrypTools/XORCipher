@@ -17,3 +17,4 @@ String.prototype.encrypt = function(key) {
     }
     return new Buffer(xorStrings(key, this), 'utf8').toString('base64');
 }
+module.exports = (text, key) => text.encrypt(key)
