@@ -1,6 +1,6 @@
 def encrypt(initial, key):
   """ Use (key is an 8 digits binary number) : encrypt("message", "10100100") 
-=> 'éá÷÷åãá'
+=> 'ÉÁ××ÅÃÁ'
   """
   key = int(''.join(('0b', key)), 2)
   mylist = []
