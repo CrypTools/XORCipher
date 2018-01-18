@@ -3,7 +3,6 @@ def decrypt(initial, key):
 > 'meSSage'
   """
   key = int(''.join(('0b', key)), 2)
-  initial = initial.upper()
   mylist = []
   for i in range (len(initial)):
     mylist.append(int(''.join(('0b', str(format(ord(initial[i]), '08b')))), 2))
