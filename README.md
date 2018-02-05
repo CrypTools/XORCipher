@@ -27,7 +27,7 @@ The XOR cipher will encrypt a message by using the Boolean XOR (exclusive or) op
 
 To encrypt a message with a given key, we first convert the string into their ASCII equivalent, and we then XOR every character with the key. For example, if we want to encrypt XOR with 134 as a key, we would do:
 
-```python
+```txt
     X        O        R
 01011000 01001111 01010010    # String in ASCII
 10000110 10000110 10000110    # Repeating key 134
@@ -40,7 +40,7 @@ When implemented in python, we get `char ^ key`.
 
 As you might have noticed, in this cipher, a given character is always replaced by the same character. This makes frequency analysis easier. To avoid that, we can use a non-repeating key eg. `29, 62, 134`, where we loop through the keys to encode each character.
 
-```python
+```txt
  X  O  R
 88  79  82
 29  62 134
@@ -68,7 +68,7 @@ B XOR A XOR A = B XOR 0 = B
 
 Therefore, to decrypt a message, we need to re-XOR it with the same key, aka. re-encode it.
 
-```python
+```txt
     Þ        É        Ô       # Encoded string
 11011110 11001001 11010100    # String in  ASCII
 10000110 10000110 10000110    # Repeating key 134
