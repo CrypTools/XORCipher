@@ -82,13 +82,11 @@ Therefore, to decrypt a message, we need to re-XOR it with the same key, aka. re
 
 ## Implementations
 
-|    Language    |           Encrypt            |           Decrypt            |
-|----------------|------------------------------|------------------------------|
-|   Javascript   | [encrypt.js](js/encrypt.js)  | [decrypt.js](js/decrypt.js)  |
-|     Python     | [encrypt.py](py/encrypt.py)  | [decrypt.py](py/decrypt.py)  |
-|   ~~Swift~~    | [lib.swift](swift/lib.swift) | [lib.swift](swift/lib.swift) |
-
-> Swift code needs fixing. Please do not use.
+|    Language    |            Encrypt             |            Decrypt             |
+|----------------|--------------------------------|--------------------------------|
+|   Javascript   |  [encrypt.js](js/encrypt.js)   |  [decrypt.js](js/decrypt.js)   |
+|   Python       | [encrypt.py](py/encrypt-v2.py) | [decrypt.py](py/decrypt-v2.py) |
+|   Swift        |  [lib.swift](swift/lib.swift)  |  [lib.swift](swift/lib.swift)  |
 
 ## Running the tests
 
