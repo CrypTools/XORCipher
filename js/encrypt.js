@@ -1,14 +1,16 @@
-/**********************************
-
-Use: "Hello World!".encrypt(134)
-=> 'Îãêêé¦Ñéôêâ§'
-
-Or in the case of non-repeating keys:
-
-Use: "Hello World!".encrypt([29, 62, 134])
-=> 'U[êqQ¦JQôqZ§'
-
-**********************************/
+/* ==========================================================================
+ *
+ *    Use:
+ *    "Hello World!".encrypt(134)
+ *    => 'Îãêêé¦Ñéôêâ§'
+ *
+ *    Or in the case of non-repeating keys:
+ *
+ *    Use:
+ *    "Hello World!".encrypt([29, 62, 134])
+ *    => 'U[êqQ¦JQôqZ§'
+ *
+ * ========================================================================== */
 
 String.prototype.encrypt = function(key) {
 

@@ -1,12 +1,17 @@
-"""
-Use: "Hello World!".encrypt(134)
-=> 'Îãêêé¦Ñéôêâ§'
+# ==============================================================================
+#
+#   Use:
+#   encrypt("Hello World!", 134)
+#   => 'Îãêêé¦Ñéôêâ§'
+#
+#   Or in the case of non-repeating keys:
+#
+#   Use:
+#   encrypt("Hello World!", [29, 62, 134])
+#   => 'U[êqQ¦JQôqZ§'
+#
+# ==============================================================================
 
-Or in the case of non-repeating keys:
-
-Use: "Hello World!".encrypt([29, 62, 134])
-=> 'U[êqQ¦JQôqZ§'
-"""
 
 def encrypt(text, key):
   if type(key) is int: key = [key]
