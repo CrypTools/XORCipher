@@ -102,9 +102,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Luka Lafaye** - *Initial work (Python)* - [@lukalafaye](https://github.com/lukalafaye)
-* **Arthur Guiot** - *Initial work (Javascript & Swift)* - [@arguiot](https://github.com/arguiot)
-* **Lucas Gruwez** - *Code simplification* - [@lucasgruwez](https://github.com/lucasgruwez)
+Made with ❤️ at CrypTools.
 
 See also the list of [contributors](https://github.com/CrypTools/XORCipher/contributors) who participated in this project.
 
